@@ -1,0 +1,187 @@
+.all_function {
+    position: relative;
+    height: 100px;
+}
+#create_group {
+    font-size: 17px;
+    position: absolute;
+    right: 80px;
+    top: 70%;
+}
+#create_group button {
+    border: none;
+    background: transparent;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#create_group button:hover {
+    color: red;
+}
+.list-room {
+    list-style: none;
+    height: 570px;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.list-room li {
+    height: 60px;
+    display: grid;
+    grid-template-columns: 0.3fr 1fr 0.3fr;
+    margin: 10px;
+}
+.list-room li img {
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    border-radius: 25px;
+}
+.list-room li p {
+    margin: auto 12px;
+}
+.list-room li button {
+    height: 20px;
+    width: 20px;
+    margin: auto;
+    color: rgb(209, 206, 206);
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+.list-room li button:hover {
+    color: red;
+}
+.create-room {
+    display:none;
+    position: absolute;
+    top: 150%;
+    z-index: 1;
+    height: 400px;
+    width: 400px;
+    left: 20%;
+    right: 20%;
+    background: rgb(231, 231, 233);
+    text-align: center;
+}
+#create-room {
+    height: 80%;
+    width: 100%;
+    margin-top: 20px;
+}
+.input-box {
+    width: 100%;
+    height: 50px;
+    margin: 12px 0px;
+    position: relative;
+}
+.input-box input {
+    width: 90%;
+    height: 50px;
+    padding: 0px 15px;
+    border-radius: 25px;
+}
+.input-box label {
+    font-weight: bold;
+}
+#create {
+    height: 50px;
+    width: 80%;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 10px;
+    background: rgb(247, 151, 67);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+/* thông tin nhóm chat */
+.InformationRoom {
+    display: none;
+    border: 1px solid rgb(71, 70, 70);
+    position: absolute;
+    z-index: 1;
+    top: 20%;
+    left: 20%;
+    height: 350px;
+    width: 50%;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+#InformationRoom {
+    margin: 0px;
+    height: 50px;
+    width: 90%;
+    background: white;
+    margin: 10px auto;
+}
+#InformationRoom ul {
+    display: flex;
+    width: 90%;
+    margin:auto;  
+    background: transparent;
+    list-style: none;
+}
+#InformationRoom ul li {
+    margin: auto;
+    display: block;
+}
+#InformationRoom ul li button {
+    border: none;
+    background: transparent;
+    font-weight: 800;
+    cursor: pointer;
+}
+#InformationRoom ul li button:hover {
+    color: rgb(252, 0, 0);
+}
+/*thành viên nhóm và admin*/
+.member, .admin {
+    display: none;
+    height: 77%;
+}
+.member ul, .admin ul {
+    list-style: none;
+    overflow-y: auto;
+    height: 100%;
+}
+.member ul li, .admin ul li {
+    display: flex;
+    margin: 10px 0px;
+    padding: 0px 10px;
+}
+.member img, .admin img {
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+}
+.member p , .admin p{
+    margin: auto 10px;
+}
+/*tham gia nhóm*/
+.join_group {
+    display: none;
+    height: 77%;
+    text-align: center;
+}
+.join_group form {
+    height: 50%;
+    width: 50%;
+    margin: 50px auto;
+}
+.join_group p {
+    font-weight: 700;
+}
+#confirm {
+    margin-top: 40px;
+    height: 50px;
+    width: 50%;
+    border-radius: 10px;
+    border: none;
+    background: rgb(247, 151, 67);
+    font-weight: 900;
+    color: white;
+    cursor: pointer;
+}

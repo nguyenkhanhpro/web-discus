@@ -1,0 +1,193 @@
+/*header*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    border-bottom: 1px solid rgb(166, 165, 165);
+    height: 70px;
+    width: 100%;
+}
+#logo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+    background: rgb(247, 151, 67);
+}
+.header {
+    display: flex;
+    width: 90%;
+    margin: 5px auto;
+}
+.header h2 {
+    width: 150px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.header form {
+    width: 70%;
+    position: relative;
+}
+.header button {
+    cursor: pointer;
+}
+.header form input {
+    height: 40px;
+    width: 92.5%;
+    padding: 0px 0px 0px 70px;
+    font-size: 1.1em;
+    font-weight: 600;
+    color: rgb(137, 134, 134);
+    border-radius: 25px;
+    border: 1px solid rgb(147, 144, 144);
+}
+.header form button {
+    position: absolute;
+    top: 0px;
+    left: 1px;
+    height: 43px;
+    width: 60px;
+    border-radius: 25px 0px 0px 25px;
+    border: none;
+    background: transparent;
+}
+.header form button i {
+    font-size: 1.5em;
+    font-weight: 800;
+    color: rgb(137, 134, 134);
+}
+#user {
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+    background: transparent;
+    border: none;
+    margin-left: 20px;
+}
+.header button a img {
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+}
+#mail {
+    margin-left: 20px;
+    background: transparent;
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+    border: 1px solid rgb(117, 116, 116);
+}
+#mail i {
+    font-size: 1.5em;
+    color: rgb(159, 156, 156);
+}
+/* phần content */
+.content {
+    display: grid;
+    grid-template-columns: 0.7fr 3fr 1fr;
+    height: 652px;
+    width: 90%;
+    margin: auto;
+}
+/* menu */
+nav {
+    margin-top:10px;
+    height: 400px;
+}
+nav ul {
+    height: 100%;
+    width: 100%;
+    list-style: none;
+}
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: rgb(55, 55, 55);
+    padding: 15px;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 20px;
+}
+nav ul li a i {
+    width: 26px;
+}
+nav ul li a:hover {
+    background: rgb(222, 219, 219);
+    border-right: 6px solid red;
+}
+/*phần section */
+section {
+    height: 650px;
+    margin-left: 25px;
+    overflow-y:auto;
+    border-top:1px solid rgb(176, 175, 175) ;
+    border-left:1px solid rgb(176, 175, 175) ;
+    border-right:1px solid rgb(176, 175, 175) ;
+}
+/* article */
+article {
+    margin-left: 20px;
+    height: 630px;
+    padding-top: 20px;
+}
+.article-header{
+    font-size: 1.1em;
+    font-weight: bold;
+    color: rgb(76, 76, 75);
+}
+/* danh sách bạn bè */
+.list-rooms {
+    list-style: none;
+    height: 610px;
+    overflow-y: auto;
+}
+.list-rooms li {
+    margin: 10px 0px;
+}
+/* thẻ button làm thành một list để dễ sử dung sự kiện onclick*/
+.list-rooms button {
+    min-height: 50px;
+    width:100%;
+    display: flex;
+    border-radius: 10px;
+    padding: 10px;
+    background: transparent;
+    border: none;
+}
+.list-rooms button:hover {
+    background: rgb(196, 195, 193);
+    border-left: 5px solid red;
+}
+.list-rooms button img {
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+}
+.list-rooms button p {
+    margin-left: 10px;
+    font-size: 1.005em;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+}
+/* footer */
+footer {
+    background: rgb(163, 150, 126);
+    height: 200px;
+}
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 20px auto;
+}
+.footer-content ul {
+    list-style: none;
+    margin: 10px auto;
+}
+#title {
+    font-size: 1.1em;
+    padding: 10px 0px;
+    font-weight: 800;
+}
